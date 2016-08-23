@@ -1,0 +1,49 @@
+
+/*Create a main selector by looking at the image its 800 by 500. Along with margin auto.*/
+main {
+	margin: auto;
+	max-height: 500px;
+	max-width: 800px;
+	font-size: 0;
+}
+
+/* The whole border is the div classes with all the boxes have 1 px with black border*/
+div {
+	border: solid 1px black;
+}
+/* Create color boxes displaying with incline block*/
+
+.gray, .black, .orange {
+	display: inline-block;
+	height: 300px;
+	width: 33%;
+}
+
+.green, .blue {
+	display: inline-block;
+	height: 200px;
+	width: 49.5%; /*50 percent is off so I have to use 49.5 off by .5*/
+}
+
+/*Create a color for box with background color weith there respected colors*/
+.gray {
+	background-color: gray;
+}
+
+.black {
+	background-color: black;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+
