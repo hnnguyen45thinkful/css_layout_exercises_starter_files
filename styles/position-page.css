@@ -1,6 +1,12 @@
 /*Edited and answered by Hieu Nguyen*/
 
 /*Here is the website I found for the body to insert the image http://www.w3schools.com/cssref/pr_background-image.asp*/
+/* Syntax For Background-image: background-image: url|none|initial|inherit; 
+url:   Url of the image. To set more than one image, place the urls separated by a comma
+none:  This is default property with no background image
+initial: Sets the property to default value
+inherit: The property is inherited from its parent element
+*/
 body {
 	background-image: url(../images/outerspace_landscape.jpeg);
 	background-repeat: no-repeat;
